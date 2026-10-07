@@ -1,0 +1,27 @@
+# Secrets - never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials
+.aws/
+aws-exports.js
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependencies / build output
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs
+*.log
